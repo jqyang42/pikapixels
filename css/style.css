@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+  margin: 0; padding: 0;
+  background-color: #f9f9f8;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* ---------------- MENU BAR ---------------- */
+nav ul.menu {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 30px;
+  list-style-type: none;
+  position: sticky;
+  background-position: 0px 0px;
+}
+
+nav ul.menu li.name{
+  color: #000000;
+  font-family: "Apercu Pro";
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 0px;
+  padding-left: 25px;
+  letter-spacing: normal;
+  float: left;
+  background-color: inherit;
+}
+
+nav ul.menu li{
+  float: right;
+  display: inline;
+  vertical-align: baseline;
+  font-family: "Apercu Pro";
+  padding-top: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1.25px;
+  background-color: inherit;
+}
+
+nav ul.menu li a {
+  color: #000000;
+  font-style: normal;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+nav ul.menu li a:hover {
+  color: #234275;
+  padding-bottom: 2px;
+  /* color: #FFD385; */
+  border-bottom: 3px solid #234275;
+}
+
+nav ul.menu li a.active {
+  color: #325997;
+  padding-bottom: 2.5px;
+  border-bottom: 3px solid #325997;
+}
