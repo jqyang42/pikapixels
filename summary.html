@@ -26,14 +26,16 @@
       <h1> Racial Disparity in COVID Test Sites </h1>
       <h4>
         Access to testing sites is step zero and must be taken to begin COVID response and treatment. Therefore, it is an essential resource that should be equally as accessible for all communities. However, in some counties of large ethnically Hispanic communities, this is not the case in that, there are often-times fewer testing sites in counties of similar sizes but with larger Hispanic population densities.
+        These analyses act as a foundation for further research such as going further into the distribution of test sites and minority groups within counties also, giving a more detailed view. There are also confounding variables to take into consideration such as COVID response budgets for each county and teh policies that each county has regarding COVID response. 
         Below is the comparison of Hispanic and Non-Hispanic population percentages and the number of testing sites in each NC county, which are grouped by total population size.
+
       </h4>
 
       <h3> Choose a Population Size: </h3>
       <div class="slidecontainer">
         <input type="range" min="0" max="210000" value="105000" class="slider" id="myRange">
       </div>
-
+      
       <script>
         function submitted() {
           var graph_label1 = document.getElementById('label1');
@@ -101,7 +103,10 @@
 
         <button onclick="submitted()">Submit</button>
       </form> -->
-    
+      <h2> 200,000+ Population: </h2>
+      <h4>
+        In the largest counties in NC, although most counties with high Hispanic populations have access to testing sites, there is teh anomoly of Durham county. Of the largest counties, although it has the largest Hispanic population, it also has the fewest testing sites available. 
+      </h4>
       <h2 id="label1"> Non-Hispanic Data in Counties with 200000+ Population </h2>
       <iframe id="iframe1" class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/6.embed"></iframe>
 
@@ -109,7 +114,10 @@
       <iframe id="iframe2" class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/4.embed"></iframe>
 
       <hr>
-
+      <h2> 100,000-200,000 Population: </h2>
+      <h4>
+        Other than Onslow county, the counties with the next two highest numbers of testing sites have the lowest percentage of Hispanic people within their populations. With most of the large Hispanic communities in this group of counties having lesser access to testing sites compared to primarily white communities, this shows a disparity in access to COVID response resources.
+      </h4>
       <h2> Non-Hispanic Data in Counties with 100000-200000 Population </h2>
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/10.embed"></iframe>
 
@@ -117,7 +125,10 @@
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/8.embed"></iframe>
 
       <hr>
-      
+      <h2> 60,000-100,000 Population: </h2>
+      <h4>
+        This range of counties only has one county with a large Hispanic population, and that being Chatham county. This county has the second lowest number of testing sites, also a potential indicator of a lack of access to resources.
+      </h4>
       <h2> Non-Hispanic Data in Counties with 60000-100000 Population </h2>
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/14.embed"></iframe>
 
@@ -125,7 +136,10 @@
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/12.embed"></iframe>
 
       <hr>
-
+      <h2> 45,000-60,000 Population: </h2>
+      <h4>
+        The county with the highest population of Hispanic people has the most test sites amongst this group of counties. However, there is also Hole county, which compared to its counterparts with the same # of test sites, it has a larger Hispanic population. 
+      </h4>
       <h2> Non-Hispanic Data in Counties with 45000-60000 Population </h2>
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/18.embed"></iframe>
       
@@ -133,7 +147,10 @@
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/16.embed"></iframe>
 
       <hr>
-
+      <h2> 15,000-45,000 Population: </h2>
+      <h4>
+        Greene county has the highest population of Hispanics amongst the counties in this size range. However, it has the fewest number of test sites.
+      </h4>
       <h2> Non-Hispanic Data in Counties with 15000-45000 Population </h2>
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/22.embed"></iframe>
 
@@ -141,7 +158,10 @@
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/20.embed"></iframe>
 
       <hr>
-
+      <h2> Smaller than 15,000 Population: </h2>
+      <h4>
+        Hyde, Jones, and Tyrell county have the highest Hispanic population percentages, and although the first two have relatively 2-3 test sites despite the small size of the counties, Tyrell County only has one.
+      </h4>
       <h2> Non-Hispanic Data in Counties with <15000 Population </h2>
       <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/26.embed"></iframe>
 
