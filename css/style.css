@@ -11,18 +11,19 @@ body {
 
 /* ---------------- MENU BAR ---------------- */
 nav ul.menu {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 40px;
   padding-right: 40px;
   height: 30px;
   list-style-type: none;
   position: sticky;
   background-position: 0px 0px;
+  background-color: #354EA9;
 }
 
 nav ul.menu li.name{
-  color: #000000;
+  color: #ffffff;
   font-family: "Apercu Pro";
   font-weight: 500;
   font-size: 24px;
@@ -48,21 +49,80 @@ nav ul.menu li{
 }
 
 nav ul.menu li a {
-  color: #000000;
+  color: #DEECFF;
   font-style: normal;
   text-decoration: none;
   background-color: inherit;
 }
 
 nav ul.menu li a:hover {
-  color: #234275;
+  color: #A7CCFF;
   padding-bottom: 2px;
   /* color: #FFD385; */
-  border-bottom: 3px solid #234275;
+  /* border-bottom: 3px solid #A7CCFF; */
 }
 
 nav ul.menu li a.active {
-  color: #325997;
+  color: #A7CCFF;
   padding-bottom: 2.5px;
-  border-bottom: 3px solid #325997;
+  border-bottom: 3px solid #A7CCFF;
+}
+
+h1 {
+  font-family: "Apercu Pro";
+  font-weight: 500;
+  font-size: 36px;
+  margin: 50px 60px 50px 60px;
+}
+
+input {
+  margin-top: 50px;
+  margin-left: 68px;
+  padding: 5px 1.5em 5px 1.5em;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  width: 400px;
+  background-color: #ffffff;
+  font-family: "Apercu Pro";
+  font-weight: 200;
+  font-size: 18px;
+  box-shadow: 5px 50px 60px #f1f1f1;
+}
+
+input:focus, textarea {
+  outline: none !important;
+}
+
+button.search {
+  border: none;
+  margin-left: -40px;
+  background-color: #ffffff;
+  vertical-align: -3px;
+
+}
+
+button.search:hover {
+  transform: scale(1.05);
+}
+
+button.search:focus {
+  outline: none !important;
+}
+
+img.search_icon {
+  height: 20px;
+  width: 20px;
+  vertical-align: center;
+  background-color: #ffffff;
+}
+
+iframe {
+  width: 92%;
+  height: 500px;
+  border-style: none;
+  scroll-behavior: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  align-content: center;
 }
