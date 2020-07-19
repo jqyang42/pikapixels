@@ -36,7 +36,7 @@ Due to our focus on the resources available for COVID response, we chose to calc
   - Percentage of Black vs. Percentage of White vs. Number of sites in each county
 
  - Confounding variables?
- - Trends seem/anomolies seen (ex: durham)
+ - Trends seem/anomolies seen (ex: Durham)
  
  
 <i>Web Application</i>
