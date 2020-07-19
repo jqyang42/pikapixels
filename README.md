@@ -27,18 +27,18 @@ Our goal with this web application is to begin to bridge the holes created by mi
 Due to our focus on the resources available for COVID response, we chose to calculate and use the percent of positive COVID cases that resulted in death. This percentage serves as an indication of how effective the response after being tested positive was meaning that, the higher the percentage of deaths, the less effective the response. With the focus on Black and White communities in NC, the trends of this percentage changing over time for each show a steeper decrease in percentage over time amongst White communities. Despite having had a higher percentage of deaths in the earlier months of the outbreak, there was a steep decrease as time went on while the trand for Black communities has a much slower decrease with current percentages higher than in White communities. This is in support of the findings by the Center for Control Disease in that there is a clear difference in racial impacts of COVID in multiple states, making it important to distribute response resources in a way that is easily accessible to all.
 
 <i>Racial Data on Testing Site Distribution</i>
-- access to testing site is very important and the first step to response
-- tried to see if potential explanation for disparity in racial data on deaths vs. positive cases in potential uneven distribution of test sites
-- multiple observations made in process:
+- Access to testing site is very important and the first step to response
+- Tried to see if potential explanation for disparity in racial data on deaths vs. positive cases in potential uneven distribution of test sites
+- Multiple observations made in process:
   - Number of Hispanics vs. Number of Non-Hispanics per site in each county
   - Percentage of Hispanics vs. Percentage of Non-Hispanics vs. Number of sites in each county categorized by different total population sizes
   - Percentage of Hispanics vs. Percentage of total sites in NC in each county
   - Percentage of Black vs. Percentage of White vs. Number of sites in each county
 
- - confounding variables?
- - trends seem/anomolies seen (ex: durham)
+ - Confounding variables?
+ - Trends seem/anomolies seen (ex: durham)
  
  
 <i>Web Application</i>
-- plotly to quanitfy the trends, patterns, and observations
+- plotly to quantify the trends, patterns, and observations we made with the datasets we found
 
