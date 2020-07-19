@@ -40,7 +40,6 @@ Due to our focus on the resources available for COVID response, we chose to calc
  
  
 <i>Web Application</i>
-- plotly to quantify the trends, patterns, and observations we made with the datasets we found
-You can see our website here: https://jqyang42.github.io/pikapixels/
+- plotly to quantify the trends, patterns, and observations we made with the datasets we found. You can see our website here: https://jqyang42.github.io/pikapixels/
 
 
