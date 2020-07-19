@@ -28,7 +28,7 @@ Due to our focus on the resources available for COVID response, we chose to calc
 
 <i>Racial Data on Testing Site Distribution</i>
 - access to testing site is very important and the first step to response
-- tried to see if potential explanation for disparity in racial data on deaths versus pos cases in potential uneven distribution of test sites
+- tried to see if potential explanation for disparity in racial data on deaths vs. positive cases in potential uneven distribution of test sites
 - multiple observations made in process:
   - #hisp vs. #non-hisp per site in each county
   - %hisp vs. %non-hisp v #sites in each county categorized by diff tot pop sizes
