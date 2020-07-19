@@ -1,3 +1,4 @@
+
 ,name,fulladdr,municipality,agency,agencytype,phone,agencyurl,operhours,Instructions,status,drive_through,appt_only,referral_required,services_offered_onsite,call_first,virtual_screening,health_dept_url,State,county,type_of_test,facility_type
 200,Novant Health Screening Center,"111 Gateway Center Drive, Kernersville, NC 27284",Forsyth County,Novant Health,Non Profit,1-877-499-1697,https://www.novanthealth.org/healthy-headlines/march-6-update-what-you-need-to-know-about-coronavirus-disease-covid-19,8am - 5pm M-F,"People who have no symptoms will not be tested. Visiting a screening center unnecessarily will only further one’s risk of exposure and put a strain on resources for those who need it most.
 The helpline is designed for patients without a primary care physician who are experiencing symptoms and have questions about how best to seek care. All community members are encouraged to call their health care provider, first, before driving to clinics to help curb the spread of possible infection.",Open,No,Yes,Yes,screening and testing,Yes,Available,https://www.ncdhhs.gov/,NC,Forsyth,molecular,Clinic
@@ -24,9 +25,11 @@ They are experiencing flu-like symptoms including fever, cough or shortness of b
 1236,Medac Urgent Care (Monkey Junction),"5245 S College Rd, Wilmington, NC 28412",New Hanover,Medac Urgent Care,,(910) 392-7806,https://www.medachealth.com/,Monday-Friday 8am-8pm,,Open,Yes,Yes,No,screening and testing,Yes,No,https://www.medachealth.com/,NC,New Hanover,molecular and antibody,Urgent Care
 1403,Wilson County Health Department,"1801 Glendale Dr SW, Wilson, NC 27893",Wilson,Wilson County Gov,County,(252) 237-3141,https://www.wilson-co.com/departments/health-department,8am-5pm,"*Please call before showing up at the Health Department*
 
+
 Only those who meet the following criteria should ask their doctor or local health department about being testing for COVID-19 through the NCSLPH: 
 
 1.Have fever or lower respiratory symptoms (cough, shortness of breath) and close contact with a confirmed COVID-19 case within the past 14 days; OR
+
 2. Have fever and lower respiratory symptoms (cough, shortness of breath) and a negative rapid flu test",Open,No,Yes,,screening and testing,Yes,,https://www.wilson-co.com/departments/health-department,NC,Wilson,molecular,Public Health Department
 1538,Craven County Health Department,"2818 Neuse Blvd, New Bern, NC 28562",New Bern,County Health Dept.,County,(252) 636-4920,https://www.cravencountync.gov/153/Health,9:00 am to 12:00 pm,,Open,Yes,Yes,Yes,screening and testing,,,http://www.cravencountync.gov/,NC,Craven,molecular,Public Health Department
 1551,PEACHTREE COMMUNITY HEALTH CENTER,"4048 E US 64 Alternate, Suite 1, Murphy, NC 28906",Murphy,,,828-837-8131,https://www.amchc.org,Monday - Friday | 7:30 am - 5:30 pm,Call ahead before you go to AMCHC or the emergency room. Tell them about your recent travel and your symptoms.,Open,No,Yes,No,screening and testing,Yes,Available,https://www.ncdhhs.gov/,NC,Cherokee,molecular,Clinic
@@ -122,9 +125,11 @@ Garner, NC 27529",Garner,FastMed,Private,919-329-5000,https://www.fastmed.com/ur
 6188,Advance Community Health,"1011 Rock Quarry Rd, Raleigh, NC 27610",Raleigh,Community Health Centers,Federal,(919) 833-3111,https://www.advancechc.org/,"Monday - Thursday 7 am to 7 pm, Friday 7 am to 6 pm","If you are a patient and have symptoms like cough, fever, sore throat and are concerned about a potential exposure, please do not come in. You may call us first at 919-833-3111 to speak with a clinical specialist who will determine whether or not you need to schedule an appointment with us for testing. Other health care options are mentioned below. Not a patient? Registration is easy. Just call 919-833-3111 for more information.",Open,,Yes,No,screening and testing,Yes,Available,http://www.wakegov.com/humanservices/publichealth/Pages/default.aspx,NC,Wake,,Clinic
 6189,Avance Care - Apex,"1801 Olive Chapel Rd #107 Apex, NC 27502",Apex,Avance Care,,(919) 267-5862,https://www.avancecare.com/covid-19/testing/,Mon-Fri: 7:30 AM to 7:00 PM Weekends: 9:00 AM to 3:00 PM,"Avance Care is now offering COVID-19 (coronavirus) antibody testing. SARS-CoV-2 IgG antibody testing can determine within 24-72 hours if you had the COVID-19 infection.
 
+
 Our tests, unlike many in the market, are high-quality and have gone through rigorous testing with the FDA.
 
 Get your COVID-19 antibody test today.
+
 
 To schedule your appointment with a provider call your preferred Avance Care location or book directly online.",Open,Yes,Yes,Yes,screening and testing,Yes,Available,http://www.wakegov.com/humanservices/publichealth/Pages/default.aspx,NC,Wake,molecular and antibody,Clinic
 6190,Avance Care - Cary,"115 Crescentcommons Dr, Cary, NC, 27518, USA",Cary,Avance Care,,(919) 803-3707,https://www.avancecare.com/locations/avance-primary-care-cary-nc/,Mon-Fri: 7:30 AM to 7:00 PM Weekends: 9:00 AM to 3:00 PM,"Avance Care is now offering COVID-19 (coronavirus) antibody testing. SARS-CoV-2 IgG antibody testing can determine within 24-72 hours if you had the COVID-19 infection.
