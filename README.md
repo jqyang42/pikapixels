@@ -35,6 +35,10 @@ Due to our focus on the resources available for COVID response, we chose to calc
   - %hisp v %of total sites in NC in each county
   - %black v %white v #sites in each county
   - 
- - 
+ - confounding variables?
+ - trends seem/anomolies seen (ex: durham)
+ 
  
 <i>Web Application</i>
+- plotly to quanitfy the trends, patterns, and observations
+
