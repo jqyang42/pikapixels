@@ -2,11 +2,15 @@
 
 * {
   margin: 0; padding: 0;
-  background-color: #f9f9f8;
+  background-color: #ffffff;
 }
 
 body {
   scroll-behavior: smooth;
+}
+
+*.map {
+  background-color: #f9f9f8;
 }
 
 /* ---------------- MENU BAR ---------------- */
@@ -73,6 +77,21 @@ h1 {
   font-weight: 500;
   font-size: 36px;
   margin: 50px 60px 50px 60px;
+  color: #3A3A3A;
+}
+
+h2 {
+  font-family: "Apercu Pro";
+  font-weight: 300;
+  font-size: 24px;
+  margin: 50px 60px 20px 60px;
+  color: #3A3A3A;
+}
+
+hr {
+  margin-left: 60px;
+  margin-right: 60px;
+  border: 1px solid #A7CCFF;
 }
 
 input {
@@ -97,7 +116,7 @@ input:focus, textarea {
 button.search {
   border: none;
   margin-left: -40px;
-  background-color: #ffffff;
+  background-color: #f9f9f8;
   vertical-align: -3px;
 
 }
@@ -124,5 +143,7 @@ iframe {
   scroll-behavior: none;
   margin-left: 60px;
   margin-right: 60px;
+  margin-bottom: 40px;
   align-content: center;
+  background-color: inherit;
 }
