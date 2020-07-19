@@ -76,7 +76,7 @@ h1 {
   font-family: "Apercu Pro";
   font-weight: 500;
   font-size: 36px;
-  margin: 50px 60px 50px 60px;
+  margin: 50px 60px 40px 60px;
   color: #3A3A3A;
 }
 
@@ -86,6 +86,39 @@ h2 {
   font-size: 24px;
   margin: 50px 60px 20px 60px;
   color: #3A3A3A;
+}
+
+h3 {
+  font-family: "Apercu Pro";
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #3A3A3A;
+}
+
+h4 {
+  font-family: "Apercu Pro";
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #3A3A3A;
+  line-height: 28px;
+}
+
+h5 {
+  font-family: "Apercu Pro";
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #3A3A3A;
+  line-height: 28px;
 }
 
 hr {
@@ -113,11 +146,49 @@ input:focus, textarea {
   outline: none !important;
 }
 
+.slider {
+  margin-top: 20px;
+  margin-left: 60px;
+  -webkit-appearance: none;
+  padding: 0px 0px 0px 0px;
+  width: 40%;
+  height: 12px;
+  border-radius: 6px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #5499F8;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #5499F8;
+  cursor: pointer;
+}
+
 button.search {
   border: none;
   margin-left: -40px;
-  background-color: #f9f9f8;
-  vertical-align: -3px;
+  background-color: #ffffff;
+  vertical-align: -4px;
 
 }
 
@@ -132,7 +203,6 @@ button.search:focus {
 img.search_icon {
   height: 20px;
   width: 20px;
-  vertical-align: center;
   background-color: #ffffff;
 }
 

@@ -7,6 +7,7 @@
     <meta name="description" content="COVID Testing Location Data Visualizations">
 	<title>NAME HERE</title>
     <link rel='stylesheet' href='./css/style.css'/>
+    <script src="slider.js"></script>
     <!-- <link rel='stylesheet' href='./css/fonts.css'/> -->
   </head>
 
@@ -23,52 +24,129 @@
 
     <div>
       <h1> Racial Disparity in COVID Test Sites </h1>
+      <h4>
+        Access to testing sites is step zero and must be taken to begin COVID response and treatment. Therefore, it is an essential resource that should be equally as accessible for all communities. However, in some counties of large ethnically Hispanic communities, this is not the case in that, there are often-times fewer testing sites in counties of similar sizes but with larger Hispanic population densities.
+        Below is the comparison of Hispanic and Non-Hispanic population percentages and the number of testing sites in each NC county, which are grouped by total population size.
+      </h4>
 
-      <h2> Non-Hispanic Data in Counties with 200000+ Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/6.embed"></iframe>
+      <h3> Choose a Population Size: </h3>
+      <div class="slidecontainer">
+        <input type="range" min="0" max="210000" value="105000" class="slider" id="myRange">
+      </div>
 
-      <h2> Hispanic Data in Counties with 200000+ Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/4.embed"></iframe>
+      <script>
+        function submitted() {
+          var graph_label1 = document.getElementById('label1');
+          var iframe1 = document.getElementById('iframe1');
+          var graph_label2 = document.getElementById('label2');
+          var iframe2 = document.getElementById('iframe2');
+          link = document.getElementById("dynamic_select").value;
+
+          switch (link) {
+            case 1:
+                graph_label1.innerHTML = "Non-HISPANIC Data in Counties with 200000+ Population";
+                graph_label2.innerHTML = "HISPANIC Data in Counties with 200000+ Population";
+                link1 = "6";
+                link2 = "4";
+                break;
+            case 2:
+                graph_label1.textContent = "Non-Hispanic Data in Counties with 100000-200000 Population";
+                graph_label2.textContent = "Hispanic Data in Counties with 100000-200000 Population";
+                link1 = "10";
+                link2 = "8";
+                break;
+            case 3:
+                graph_label1.textContent = "Non-Hispanic Data in Counties with 60000-100000 Population";
+                graph_label2.textContent = "Hispanic Data in Counties with 60000-100000 Population";
+                link1 = "14";
+                link2 = "12";
+                break;
+            case 4:
+                graph_label1.textContent = "Non-Hispanic Data in Counties with 45000-60000 Population";
+                graph_label2.textContent = "Hispanic Data in Counties with 45000-60000 Population";
+                link1 = "18";
+                link2 = "16";
+                break;
+            case 5:
+                graph_label1.textContent = "Non-Hispanic Data in Counties with 15000-45000 Population";
+                graph_label2.textContent = "Hispanic Data in Counties with 15000-45000 Population";
+                link1 = "22";
+                link2 = "20";
+                break;
+            case 6:
+                graph_label1.textContent = "Non-Hispanic Data in Counties with <15000 Population";
+                graph_label2.textContent = "Hispanic Data in Counties with <15000 Population";
+                link1 = "26";
+                link2 = "24";
+                break;
+          }
+
+          document.getElementById("iframe1").src = "https://plotly.com/~jcho1260/"+link1+".embed";
+          document.getElementById("iframe2").src = "https://plotly.com/~jcho1260/"+link2+".embed";
+        }
+
+      </script>
+
+      <!-- <form onsubmit="return false;"></form>
+
+        <select id="dynamic_select">
+          <option value="" selected> ––– Select ––– </option>
+          <option value="1">200000+</option>
+          <option value="2">100000-200000</option>
+          <option value="3">60000-100000</option>
+          <option value="4">45000-60000</option>
+          <option value="5">15000-45000</option>
+          <option value="6">< 15000</option>
+        </select>
+
+        <button onclick="submitted()">Submit</button>
+      </form> -->
+    
+      <h2 id="label1"> Non-Hispanic Data in Counties with 200000+ Population </h2>
+      <iframe id="iframe1" class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/6.embed"></iframe>
+
+      <h2 id="label2"> Hispanic Data in Counties with 200000+ Population </h2>
+      <iframe id="iframe2" class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/4.embed"></iframe>
 
       <hr>
 
       <h2> Non-Hispanic Data in Counties with 100000-200000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/10.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/10.embed"></iframe>
 
       <h2> Hispanic Data in Counties with 100000-200000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/8.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/8.embed"></iframe>
 
       <hr>
       
       <h2> Non-Hispanic Data in Counties with 60000-100000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/14.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/14.embed"></iframe>
 
       <h2> Hispanic Data in Counties with 60000-100000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/12.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/12.embed"></iframe>
 
       <hr>
 
       <h2> Non-Hispanic Data in Counties with 45000-60000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/18.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/18.embed"></iframe>
       
       <h2> Hispanic Data in Counties with 45000-60000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/16.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/16.embed"></iframe>
 
       <hr>
 
       <h2> Non-Hispanic Data in Counties with 15000-45000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/22.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/22.embed"></iframe>
 
       <h2> Hispanic Data in Counties with 15000-45000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/20.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/20.embed"></iframe>
 
       <hr>
 
       <h2> Non-Hispanic Data in Counties with <15000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/26.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/26.embed"></iframe>
 
       <h2> Hispanic Data in Counties with <15000 Population </h2>
-      <iframe id="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/24.embed"></iframe>
+      <iframe class="igraph" scrolling="no" seamless="seamless" src="https://plotly.com/~jcho1260/24.embed"></iframe>
     </div>
     
   </body>
