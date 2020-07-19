@@ -78,6 +78,7 @@ h1 {
   font-size: 36px;
   margin: 50px 60px 40px 60px;
   color: #3A3A3A;
+  background-color: inherit;
 }
 
 h2 {
