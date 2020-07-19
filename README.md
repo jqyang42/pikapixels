@@ -27,13 +27,13 @@ Our goal with this web application is to begin to bridge the holes created by mi
 Due to our focus on the resources available for COVID response, we chose to calculate and use the percent of positive COVID cases that resulted in death. This percentage serves as an indication of how effective the response after being tested positive was meaning that, the higher the percentage of deaths, the less effective the response. With the focus on Black and White communities in NC, the trends of this percentage changing over time for each show a steeper decrease in percentage over time amongst White communities. Despite having had a higher percentage of deaths in the earlier months of the outbreak, there was a steep decrease as time went on while the trand for Black communities has a much slower decrease with current percentages higher than in White communities. This is in support of the findings by the Center for Control Disease in that there is a clear difference in racial impacts of COVID in multiple states, making it important to distribute response resources in a way that is easily accessible to all.
 
 <i>Racial Data on Testing Site Distribution</i>
-- access to testing site is v important and the first step to response
-- tried to see if potential explanation for disparity in racial data on deaths v pos cases in potential uneven distrib of test sites
+- access to testing site is very important and the first step to response
+- tried to see if potential explanation for disparity in racial data on deaths versus pos cases in potential uneven distribution of test sites
 - multiple observations made in process:
-  - #hisp v #non-hisp per site in each county
-  - %hisp v %non-hisp v #sites in each county categorized by diff tot pop sizes
-  - %hisp v %of total sites in NC in each county
-  - %black v %white v #sites in each county
+  - #hisp vs. #non-hisp per site in each county
+  - %hisp vs. %non-hisp v #sites in each county categorized by diff tot pop sizes
+  - %hisp vs. %of total sites in NC in each county
+  - %black vs. %white v #sites in each county
   - 
  - confounding variables?
  - trends seem/anomolies seen (ex: durham)
